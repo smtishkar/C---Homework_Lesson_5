@@ -122,7 +122,7 @@ void PrintArray(int[] collection)
 {
     int lengh = collection.Length;
     int position = 0;
-    Console.Write("Исходны массив [");
+    Console.Write("Исходный массив [");
     while (position < lengh - 1)
     {
         Console.Write($"{collection[position]}, ");
