@@ -29,14 +29,14 @@ if (initialRequest.ToLower() == "y")
     Console.Write("Введите длину массива: ");
     elementsCount = int.Parse(Console.ReadLine());
 
-    Console.Write("Введите минимальную границу ТРЁХЗНАЧНОЕ массива: ");
+    Console.Write("Введите минимальную границу ТРЁХЗНАЧНОГО массива: ");
     minValue = int.Parse(Console.ReadLine());
     
     while (minValue < 100 || minValue > 999)
     {
         if (minValue < 100 || minValue > 999)
         {
-            Console.Write("Введите минимальную границу ТРЁХЗНАЧНОЕ массива КОРРЕКТНО: ");
+            Console.Write("Введите минимальную границу ТРЁХЗНАЧНОГО массива КОРРЕКТНО: ");
             minValue = int.Parse(Console.ReadLine());
         }
     }
@@ -48,7 +48,7 @@ if (initialRequest.ToLower() == "y")
     {
         if (maxValue < 100 || maxValue > 999)
         {
-            Console.Write("Введите максимальную границу ТРЁХЗНАЧНОЕ массива КОРРЕКТНО: ");
+            Console.Write("Введите максимальную границу ТРЁХЗНАЧНОГО массива КОРРЕКТНО: ");
             maxValue = int.Parse(Console.ReadLine());
         }
     }
@@ -64,19 +64,19 @@ if (initialRequest.ToLower() == "y")
             {   
                 if (minValue < 100 || minValue > 999)
                 {
-                Console.Write("Введите минимальную границу ТРЁХЗНАЧНОЕ массива КОРРЕКТНО: ");
+                Console.Write("Введите минимальную границу ТРЁХЗНАЧНОГО массива КОРРЕКТНО: ");
                 minValue = int.Parse(Console.ReadLine());
                 }
             }
 
-            Console.Write("Введите максимальную границу ТРЁХЗНАЧНОЕ массива: ");
+            Console.Write("Введите максимальную границу ТРЁХЗНАЧНОГО массива: ");
             maxValue = int.Parse(Console.ReadLine());
 
             while (maxValue < 100 || maxValue > 999)
             {
                 if (maxValue < 100 || maxValue > 999)
                 {
-                Console.Write("Введите максимальную границу ТРЁХЗНАЧНОЕ массива КОРРЕКТНО: ");
+                Console.Write("Введите максимальную границу ТРЁХЗНАЧНОГО массива КОРРЕКТНО: ");
                 maxValue = int.Parse(Console.ReadLine());
                 }
             }
