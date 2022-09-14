@@ -57,7 +57,7 @@ if (initialRequest.ToLower() == "y")
     {
         if (minValue >= maxValue)
         {
-            Console.Write("Минимальная граница должна быть меньше максимальной, введите значения вность. Начнем с минимальной границы: ");
+            Console.Write("Минимальная граница должна быть меньше максимальной, введите значения вновь. Начнем с минимальной границы: ");
             minValue = int.Parse(Console.ReadLine());
 
             while (minValue < 100 || minValue > 999)
