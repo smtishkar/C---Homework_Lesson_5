@@ -27,7 +27,7 @@ int CalculationInArray(int[] modarray)
         if (location % 2 == 0)
         sum = sum + modarray[location];
     }
-    Console.Write($" Cумма элементов стоящик на нечетных позициях равна {sum}");
+    Console.Write($" Сумма элементов, стоящих на нечетных позициях равна {sum}");
     return sum;
 }
 
@@ -36,7 +36,7 @@ void PrintArray(int[] collection)
 {
     int lengh = collection.Length;
     int position = 0;
-    Console.Write("Исходны массив [");
+    Console.Write("Исходный массив [");
     while (position < lengh - 1)
     {
         Console.Write($"{collection[position]}, ");
