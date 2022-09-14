@@ -24,7 +24,7 @@ int CalculationInArray(int[] modarray)
     int sum = 0;
     for (location = 0; location < length; location++)
     {
-        if (location % 2 == 0)
+        if (location % 2 != 0)
         sum = sum + modarray[location];
     }
     Console.Write($" Сумма элементов, стоящих на нечетных позициях равна {sum}");
